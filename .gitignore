@@ -1,0 +1,31 @@
+# Bases de datos y Backups
+*.sql
+backup*/
+
+# Archivos generados
+facturas-generadas/
+tickets/
+FACTURAS_EJEMPLO/
+invoices_output/
+
+# Certificados de SUNAT (¡CRÍTICO!)
+*.pem
+*.p12
+*.crt
+*.key
+tax-service/resources/*.pem
+tax-service/resources/*.p12
+
+# Variables de entorno (Contraseñas)
+.env
+.env.*
+
+# Carpetas de Node.js y compilaciones (Docker ya se encarga)
+node_modules/
+dist/
+.next/
+vendor/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db

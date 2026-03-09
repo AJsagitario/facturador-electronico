@@ -1,0 +1,15 @@
+{
+    "name": "clinica/tax-service",
+    "description": "Microservicio para generación de XML y Firma Digital",
+    "require": {
+        "php": "^8.1",
+        "greenter/greenter": "^5.1",
+        "greenter/report": "*",
+        "greenter/xml-parser": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
